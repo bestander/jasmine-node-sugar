@@ -16,7 +16,7 @@ I decided not to push this one to npm while there are only a few insignificant f
 ```
 
 - require this module in your `spec` file
-- call `jasmine-node-sugar.addJasmineMatchers` in `beforeEach` method of your suite/spec
+- call `jasmine_node_sugar.addJasmineMatchers` in `beforeEach` method of your suite/spec
 
 
 ### License MIT
