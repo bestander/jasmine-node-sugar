@@ -1,0 +1,22 @@
+{
+  "name": "jasmine-node-sugar",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bestander/jasmine-node-sugar.git"
+  },
+  "description": "Some additional methods that make my life easier when testing with Jasmine in Node.js",
+  "version": "0.0.1",
+  "keywords": [
+    "jasmine",
+    "testing"
+  ],
+  "author": {
+    "name": "Konstantin Raev",
+    "email": "bestander@gmail.com"
+  },
+  "main": "./index.js",
+  "engines": [
+    "node"
+  ],
+  "license": "MIT"
+}
