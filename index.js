@@ -1,3 +1,5 @@
+var _ = require('lodash');
+
 // timeout fix for Node.js
 jasmine.getGlobal().setTimeout = function(funcToCall, millis) {
   if (jasmine.Clock.installed.setTimeout.apply) {
