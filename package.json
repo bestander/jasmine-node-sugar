@@ -5,7 +5,7 @@
     "url": "https://github.com/bestander/jasmine-node-sugar.git"
   },
   "description": "Some additional methods that make my life easier when testing with Jasmine in Node.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "jasmine",
     "testing"

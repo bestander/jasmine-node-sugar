@@ -15,7 +15,7 @@ module.exports = {
    * call this in beforeEach method to add more available matchers
    * @param spec "this" within spec
    */
-  addJasmineMatchers: function(spec) {
+  addJasmineMatchers: function (spec) {
     spec.addMatchers({
       /**
        * Array contains all elements of another array
@@ -30,6 +30,17 @@ module.exports = {
           });
         });
       }
+    });
+  },
+
+  /**
+   * filter jasmine spied function calls by first argument
+   * @param calls calls array
+   * @param firstArg value of first arg
+   */
+  getCallsFilteredByFirstArg: function (calls, firstArg){
+    return _.filter(calls, function (elem) {
+      return elem.args[0] === firstArg;
     });
   }
   
