@@ -5,7 +5,7 @@
     "url": "https://github.com/bestander/jasmine-node-sugar.git"
   },
   "description": "Some additional methods that make my life easier when testing with Jasmine in Node.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "jasmine",
     "testing"
@@ -13,6 +13,9 @@
   "author": {
     "name": "Konstantin Raev",
     "email": "bestander@gmail.com"
+  },
+  "dependencies": {
+    "lodash": "latest"
   },
   "main": "./index.js",
   "engines": [
